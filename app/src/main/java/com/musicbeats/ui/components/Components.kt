@@ -82,7 +82,10 @@ fun AssetImage(
 ) {
     val context = LocalContext.current
     val resId = remember(name) {
-        context.resources.getIdentifier(name.lowercase(), "drawable", context.packageName)
+        val id = context.resources.getIdentifier(name.lowercase(), "drawable", context.packageName)
+        // Layoutlib (Compose Preview) hands out fake IDs for unknown names, so verify the
+        // resource actually resolves; otherwise fall back to the placeholder.
+        if (id != 0 && runCatching { context.resources.getDrawable(id, context.theme) }.isSuccess) id else 0
     }
     Box(modifier.background(placeholder)) {
         if (resId != 0) {

@@ -15,7 +15,8 @@ import androidx.compose.ui.unit.sp
 object BeatsColors {
     val Purple = Color(0xFFAF52DE)
     val Orange = Color(0xFFFF9500)
-    val Gray = Color(0xFF8E8E93)
+    val Gray = Color(0xFFFFFFFF)
+
     val Red = Color(0xFFFF3B30)
     val Green = Color(0xFF34C759)
     val Blue = Color(0xFF007AFF)
