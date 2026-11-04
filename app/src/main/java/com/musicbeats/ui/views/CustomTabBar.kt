@@ -58,7 +58,7 @@ fun CustomTabBar(
         Box(
             modifier = Modifier
                 .align(Alignment.TopCenter)
-                .size(70.dp)
+                .size(50.dp)
                 .clip(CircleShape)
                 .background(BeatsColors.Purple)
                 .clickable { showUpload = true },
