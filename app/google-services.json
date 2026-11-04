@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127158602719",
+    "project_id": "music-25fff",
+    "storage_bucket": "music-25fff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127158602719:android:ed584167ae170d98d7d26a",
+        "android_client_info": {
+          "package_name": "com.musicbeats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm_RiIhyKZNNvW1ZEoJUvF3CT34jteflU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
